@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteCond %{QUERY_STRING} ^url=.*$
+RewriteRule ^.*$ simple_url_shortener.php [QSA,NC,L]
+
+RewriteRule ^[0-9a-zA-Z]{5}$ simple_url_shortener.php [NC,L]
