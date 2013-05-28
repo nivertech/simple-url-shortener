@@ -21,7 +21,7 @@ Simple URL shortener using PHP + REDIS
 
 ## Add url
 
-[http://r2goo.com?url=http://www.freegeeks.nl](http://r2goo.com?url=http://freegeeks.nl)
+[http://r2goo.com?url=http://www.freegeeks.nl](http://r2goo.com?url=http://www.freegeeks.nl)
 
 ## Use Redirect
 
